@@ -2,6 +2,15 @@ Team:
 - Maximilian Nowak
 - Thomas Winter
 - Simon Nenning
+
+- Simons's mac: 6c:0b:84:3c:a3:ae Host C
+- Thommy's mac: 6c:0b:84:3c:a4:47 Host A
+- Maxl's mac: 6c:0b:84:3c:a3:de Host B
+  <br>
+- Simons's ip: 192.168.10.11 Host C
+- Thommy's ip: 192.168.10.12 Host A
+- Maxl's ip: 192.168.10.13 Host B
+
 # 1 Reconnaissance
 ### - *What is the ip address of your PC ?*
   __192.168.10.13/24__
@@ -23,14 +32,6 @@ Team:
 # 3 ARP Poising
 ### - Find out how to start ``arpspoof`` to achieve the reuslt described above 
 #### ``man arpspoof`` 
-
-  - Simons's mac: 6c:0b:84:3c:a3:ae Host C
-  - Thommy's mac: 6c:0b:84:3c:a4:47 Host A
-  - Maxl's mac: 6c:0b:84:3c:a3:de Host B
-  <br>
-  - Simons's ip: 192.168.10.11 Host C
-  - Thommy's ip: 192.168.10.12 Host A
-  - Maxl's ip: 192.168.10.13 Host B
   
 ``$ arpspoof -i [Network Interface Name] -t [Victim IP] [Router IP]``
 
